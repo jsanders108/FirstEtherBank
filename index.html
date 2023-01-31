@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+    <head>
+        <title>First Ethereum Bank</title>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.2.7-rc.0/web3.min.js"></script>
+		<link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <header id="header">
+            <img id="bank-icon" src="/Bank_Icon.png" >
+            <h1 id="title">First Ethereum Bank</h1>
+        </header>
+        <main id="main-wrapper">
+                <button onclick="connectMetamask()" class="button">Connect to Metamask</button>
+                <p id="userArea">Status: Not connected to Metamask</p>
+                <button onclick="connectContract()"class="button">Connect to bank</button>
+                <p id="contractArea">Status: Not connected to bank</p>
+                <button onclick="getBalance()" class="button">Get your balance</button>
+                <p id="balanceArea">Balance: Not connected to bank</p>
+                <button onclick="depositEth()" class="button">Deposit funds</button>
+                <input type="number" id="depositInput" placeholder="Enter Amount (Goerli ETH)">
+                <button onclick="withdrawEth()" class="button">Withdraw your funds</button>
+                <input type="number" id="amountInput1" placeholder="Enter Amount (Goerli ETH)"> 
+                <button onclick="transferEth()" class="button">Transfer your funds</button>
+                <input type="text" id="addressInput" placeholder="Enter Address">
+                <input type="number" id="amountInput2" placeholder="Enter Amount (Goerli ETH)"> 
+
+                <button onclick="getContractBalance()"class="button">Get contract balance</button>
+                <p id="contractBalanceArea">Total contract balance:</p>
+
+        
+
+        </main>
+        
+		<script
+			src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"
+			type="application/javascript">
+	    </script>
+		<script src="/index.js"></script>
+    </body>
+</html>

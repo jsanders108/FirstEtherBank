@@ -1,0 +1,75 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: whitesmoke;
+    font-family: sans-serif;
+}
+
+/* Header */
+
+#header {
+    background: white; 
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.2);
+    padding: 50px 0px;
+    display: flex; 
+    justify-content: center; 
+}
+
+#bank-icon{
+    width: 100px;
+    align-self: center; 
+}
+
+#title {
+   color: darkblue;
+   margin-left: 5px;  
+   font-family: tahoma; 
+}
+
+
+/* Main Body */
+
+#main-wrapper {
+    display: flex;
+    flex-direction: column; 
+
+    margin: 0 auto; 
+    min-width: 100px; 
+    max-width: 400px; 
+    padding: 25px 10px; 
+}
+
+.button {
+    margin-bottom: 0px; 
+    margin-top: 25px; 
+    padding: 10px 0px;  
+    border-radius: 5px; 
+    background: darkblue;
+    color: white;
+    border: none;
+    font-family: sans-serif; 
+    font-size: 20px; 
+}
+        
+.button:hover, .button:focus {
+    background: lightblue; 
+    border: none;
+    color: black; 
+    font-weight: bold; 
+}
+
+.button:active {
+    box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+    border: none; 
+}
+
+input {
+    margin-top: 10px; 
+    padding: 5px 3px; 
+    font-size: 15px; 
+    
+}
+
+p {
+    margin-bottom: 10px; 
+}
