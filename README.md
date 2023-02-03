@@ -1,4 +1,4 @@
-This is an app which connects to a "First Ethereum Bank" smart contract deployed on Ethereum's Goerli testnet. In addition to checking balances, users can deposit, withdraw, and transfer Goerli ETH.
+This is a full-stack Solidity app which connects to a "First Ethereum Bank" smart contract deployed on Ethereum's Goerli testnet. In addition to checking balances, users can deposit, withdraw, and transfer Goerli ETH.
 
 The app has multiple components. First is a Solidity smart contract, which was compiled and deployed to the Goerli Ethereum Testnet using Hardhat and Visual Studio Code. Next, the HTML, CSS and JavaScript files were connected to the Solidity bank contract on Goerli via Web3.js. 
 
